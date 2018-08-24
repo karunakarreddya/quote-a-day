@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>A Quote A Day</title>
+    </head>
+    <body>
+        <div align="center" >
+            <h1 style="color: blue" id="quote"></h1>
+        </div>
+        <script>
+            var quoteArray = [
+                "you cannot escape the responsiblity of tomorrow by evading tody",
+                "I believe if you keep your faith, you keep your trust, you keep the right attitude, if you're grateful, you'll see God open up new doors.",
+                "When you focus on being a blessing, God makes sure that you are always blessed in abundance",
+                "A grateful heart is a beginning of greatness. It is an expression of humility. It is a foundation for the development of such virtues as prayer, faith, courage, contentment, happiness, love, and well-being.",
+                "Always be yourself, express yourself, have faith in yourself, do not go out and look for a successful personality and duplicate it",
+                "Life is full of happiness and tears; be strong and have faith.",
+                "Faith is taking the first step even when you don't see the whole staircase.",
+                "Optimism is the faith that leads to achievement. Nothing can be done without hope and confidence.",
+                "Keep your dreams alive. Understand to achieve anything requires faith and belief in yourself, vision, hard work, determination, and dedication. Remember all things are possible for those who believe.",
+                "If fear is cultivated it will become stronger, if faith is cultivated it will achieve mastery."];
+                
+            var randomNumber = Math.floor(Math.random()*20);
+                console.log(randomNumber);
+                
+                document.getElementById('quote').innerHTML = quoteArray[randomNumber];
+        </script>    
+    </body>
+</html>
